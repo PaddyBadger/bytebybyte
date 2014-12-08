@@ -1,0 +1,103 @@
+body {
+  width:1200px;
+  margin:auto;
+  font-family: "Helvetica";
+  background-image: url("newyork.jpg");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  }
+header {
+  margin: 50px;
+  vertical-align: center;
+}
+header ul li a{
+  text-decoration: none;
+  margin: 50px;
+  color: white;
+}
+header ul li{
+  display: inline;
+}
+header ul li a:hover {
+  color: black;
+  font-weight: bold;
+}
+.current {
+  color: black;
+  font-weight: bold;
+}
+.digits {
+  height: 150px;
+}
+.hide {
+  display: none;
+}
+.noshow {
+  display: none;
+}
+#canvasusd {
+  z-index: 1;
+  position:absolute;
+}
+#canvasgbp {
+  z-index: 1;
+  position:absolute;
+}
+#canvaseur {
+  z-index: 1;
+  position:absolute;
+}
+#canvascny {
+  z-index: 1;
+  position:absolute;
+}
+#canvas1 {
+  z-index: 2;
+  position:absolute;
+  left:0px;
+  top:0px;
+}
+
+#canvas2 {
+  z-index: 3;
+  position:absolute;
+  left:0px;
+  top:0px;
+}
+
+#canvas3 {
+  z-index: 4;
+  position:absolute;
+  left:0px;
+  top:0px;
+}
+#canvas4 {
+  z-index: 5;
+  position:absolute;
+  left:0px;
+  top:0px;
+}
+
+#canvas5 {
+  z-index: 6;
+  position:absolute;
+  left:0px;
+  top:0px;
+}
+#canvas6 {
+  z-index: 7;
+  position:absolute;
+  left:0px;
+  top:0px;
+}
+footer {
+  position: absolute;
+  margin: auto;
+  bottom: 2px;
+  width: 700px;
+  text-align: center;
+  z-index: 100;
+}
