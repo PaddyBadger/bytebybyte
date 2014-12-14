@@ -61,19 +61,11 @@ body {
 .header {
   height: 700px;
   background-image: url("newyork.jpg");
-  background-repeat: no-repeat center center scroll;
+  background-repeat: no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-   min-height: 100%;
-  min-width: 1024px;
-  
-  /* Set up proportionate scaling */
-  width: 100%;
-  height: auto;
-  
- 
 }
 .parallax {
   height: 650px;
@@ -161,4 +153,19 @@ footer {
   width: 700px;
   text-align: center;
   z-index: 100;
+}
+
+@media only screen and (device-width: 768px) and (orientation: landscape) {
+  /* rules for iPad in landscape orientation */
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+.header {
+    background-image: url("newyork.jpg");
+    background-repeat: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
 }
