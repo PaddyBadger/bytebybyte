@@ -139,6 +139,13 @@ margin-top: 50px;
 .about p {
   margin-left: 400px;
 }
+.about a {
+  color: black;
+  text-decoration: none;
+}
+.about a:hover {
+  color: gray;
+}
 footer {
   position: absolute;
   margin: auto;
