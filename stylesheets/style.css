@@ -159,7 +159,6 @@ footer {
       -moz-background-size: cover;
       -o-background-size: cover;
       background-size: cover;
-      -webkit-transform: translateZ(0); 
     }
     body {
     font-family: 'Lato', sans-serif;
