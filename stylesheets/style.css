@@ -219,7 +219,7 @@ footer {
   }
   .parallax {
     height: 700px;
-    background-attachment: scroll;
+    background-attachment: local;
     background-position: center center;
     background-size: cover;
     &:nth-child(2n) {
